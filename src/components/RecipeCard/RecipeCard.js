@@ -20,7 +20,7 @@ const RecipeCard = props => (
                         <h2>{props.recipe.title}</h2>
                     </div>
                     <div className="right">
-                        <p>{props.recipe.totalPreparationTime}</p>
+                        <span>{props.recipe.totalPreparationTime}</span>
                     </div>
                 </div>
                 <div className="card-bottom">
