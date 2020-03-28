@@ -1,0 +1,23 @@
+@import "~normalize.css/normalize.css";
+@import "./Font.scss";
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #1e1e1e;
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    color: #ccc;
+}
+
+.app-container {
+    margin: 1rem;
+
+    .app-title {
+        font-size: x-large;
+
+        .faded {
+            color: #888;
+        }
+    }
+}

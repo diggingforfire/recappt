@@ -1,0 +1,33 @@
+.recipe-card {
+    background-color: #333;
+    border: 1px solid rgb(233, 233, 233);
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
+    min-height: 150px;
+    border-radius: 10px;
+    margin: 0rem 1rem 1rem 0rem;
+    padding: 0rem 1rem 0rem 1rem;
+    flex: 0 1 30%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #444;
+    }
+
+    .recipe-image {
+        max-width: 100%;
+    }
+
+    .card-top {
+        display: flex;
+
+        .left {
+            flex: 0 1 100%;
+        }
+
+        .right {
+            flex: 0 1 auto;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
