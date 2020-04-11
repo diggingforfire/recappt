@@ -12,12 +12,26 @@ body {
 
 .app-container {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
 
     .app-title {
-        font-size: x-large;
+        font-size: 4rem;
+        text-align: center;
+        color: #f2ebd1;
 
         .faded {
-            color: #888;
+            color: #e2a526;
+        }
+    }
+
+    .cow {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        .chef {
+            width: 35%;
+            height: 35%;
         }
     }
 }

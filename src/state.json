@@ -18,10 +18,10 @@
                     "tags": ["eventueel zonder korst"]
                 },
                 {
-                    "unit": "liters",
+                    "unit": "milliliters",
                     "amount": {
-                        "min": 0.5,
-                        "max": 0.5
+                        "min": 500,
+                        "max": 500
                     },
                     "name": {
                         "singular": "melk",
@@ -87,10 +87,7 @@
                         "singular": "boter",
                         "plural": "boter"
                     },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
+                    "tags": ["40 gram voor de pap", "5 gram voor de korst"]
                 },
                 {
                     "unit": "intuition",
@@ -148,30 +145,54 @@
         },
         {
             "id": 2,
-            "title": "Broodpap",
-            "servings": 1,
+            "title": "Broodschotel andijvie-ham-kaas",
+            "servings": 2,
             "ingredients": [
                 {
                     "unit": "whole",
                     "amount": {
-                        "min": 8,
-                        "max": 10
+                        "min": 1,
+                        "max": 1
                     },
                     "name": {
-                        "singular": "sneetje brood",
-                        "plural": "sneetjes brood"
+                        "singular": "stokbrood",
+                        "plural": "stokbroden"
                     },
-                    "tags": ["eventueel zonder korst"]
+                    "tags": []
                 },
                 {
-                    "unit": "liters",
+                    "unit": "grams",
                     "amount": {
-                        "min": 0.5,
-                        "max": 0.5
+                        "min": 250,
+                        "max": 250
                     },
                     "name": {
-                        "singular": "melk",
-                        "plural": "melk"
+                        "singular": "achterham",
+                        "plural": "achterham"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "tablespoon",
+                    "amount": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "name": {
+                        "singular": "olijfolie",
+                        "plural": "olijfolie"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "intuition",
+                    "amount": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "name": {
+                        "singular": "Provençaalse kruiden",
+                        "plural": "Provençaalse kruiden"
                     },
                     "tags": []
                 },
@@ -182,83 +203,44 @@
                         "max": 1
                     },
                     "name": {
-                        "singular": "ei",
-                        "plural": "eieren"
+                        "singular": "rode ui",
+                        "plural": "rode uien"
                     },
-                    "tags": []
+                    "tags": ["in ringen"]
                 },
                 {
-                    "unit": "intuition",
+                    "unit": "whole",
                     "amount": {
-                        "min": 1,
-                        "max": 1
+                        "min": 3,
+                        "max": 3
                     },
                     "name": {
-                        "singular": "citroendruppel",
-                        "plural": "citroendruppels"
+                        "singular": "tomaat",
+                        "plural": "tomaten"
+                    },
+                    "tags": ["in plakken"]
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "name": {
+                        "singular": "andijvie",
+                        "plural": "andijvie"
                     },
                     "tags": []
                 },
                 {
                     "unit": "grams",
                     "amount": {
-                        "min": 75,
-                        "max": 75
+                        "min": 175,
+                        "max": 175
                     },
                     "name": {
-                        "singular": "rozijn",
-                        "plural": "rozijnen"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 75,
-                        "max": 75
-                    },
-                    "name": {
-                        "singular": "suiker",
-                        "plural": "suiker"
-                    },
-                    "tags": ["50 gram voor de pap", "25 gram voor de korst"]
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 45,
-                        "max": 45
-                    },
-                    "name": {
-                        "singular": "boter",
-                        "plural": "boter"
-                    },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "paneermeel",
-                        "plural": "paneermeel"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "kaneel",
-                        "plural": "kaneel"
+                        "singular": "geraspte kaas",
+                        "plural": "geraspte kaas"
                     },
                     "tags": []
                 }
@@ -272,52 +254,68 @@
             "steps": [
                 {
                     "order": 1,
-                    "description": "Verwarm de oven voor op 180℃."
+                    "description": "Verwarm de oven voor op 180℃. Snijd het stokbrood in sneetjes van ongeveer 1,5 centimeter. Snijd de ham in reepjes. Snijd de uien in ringen. Snijd de tomaten in plakken."
                 },
                 {
                     "order": 2,
-                    "description": "Verwarm de melk en maak hierin het brood fijn."
+                    "description": "Schenk de olie in de ovenschaal en meng met de Provençaalse kruiden en peper en zout naar smaak. Voeg de ui, de tomaten, de andijvie en de ham toe en meng alles goed."
                 },
                 {
                     "order": 3,
-                    "description": "Splits het ei. Voeg de eidooier samen met enkele citroendruppels, de rozijnen, 50 gram suiker en 40 gram boter toe aan de pap."
-                },
-                {
-                    "order": 4,
-                    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep de eiwit er luchtig doorheen."
-                },
-                {
-                    "order": 5,
-                    "description": "De de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een dun klontje boter op. Zet het in het midden van de oven totdat het een mooie bruine korst heeft."
+                    "description": "Stop het stokbrood er dakpansgewijs tussen. Bestrooi met de kaas en zet de schaal in het midden van de oven. Bak het goudbruin."
                 }
             ]
         },
         {
             "id": 3,
-            "title": "Broodpap",
-            "servings": 1,
+            "title": "Spinazieburrito's uit de oven",
+            "servings": 2,
             "ingredients": [
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 450,
+                        "max": 450
+                    },
+                    "name": {
+                        "singular": "spinazie",
+                        "plural": "spinazie"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "whole",
+                    "amount": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "name": {
+                        "singular": "ui",
+                        "plural": "uien"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 500,
+                        "max": 500
+                    },
+                    "name": {
+                        "singular": "gehakt",
+                        "plural": "gehakt"
+                    },
+                    "tags": []
+                },
                 {
                     "unit": "whole",
                     "amount": {
                         "min": 8,
-                        "max": 10
+                        "max": 8
                     },
                     "name": {
-                        "singular": "sneetje brood",
-                        "plural": "sneetjes brood"
-                    },
-                    "tags": ["eventueel zonder korst"]
-                },
-                {
-                    "unit": "liters",
-                    "amount": {
-                        "min": 0.5,
-                        "max": 0.5
-                    },
-                    "name": {
-                        "singular": "melk",
-                        "plural": "melk"
+                        "singular": "tortilla",
+                        "plural": "tortilla's"
                     },
                     "tags": []
                 },
@@ -328,142 +326,111 @@
                         "max": 1
                     },
                     "name": {
-                        "singular": "ei",
-                        "plural": "eieren"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "citroendruppel",
-                        "plural": "citroendruppels"
+                        "singular": "burrito seasoning mix",
+                        "plural": "burrito seasoning mix"
                     },
                     "tags": []
                 },
                 {
                     "unit": "grams",
                     "amount": {
-                        "min": 75,
-                        "max": 75
+                        "min": 150,
+                        "max": 150
                     },
                     "name": {
-                        "singular": "rozijn",
-                        "plural": "rozijnen"
+                        "singular": "geraspte kaas",
+                        "plural": "geraspte kaas"
                     },
                     "tags": []
                 },
                 {
-                    "unit": "grams",
+                    "unit": "whole",
                     "amount": {
-                        "min": 75,
-                        "max": 75
+                        "min": 4,
+                        "max": 4
                     },
                     "name": {
-                        "singular": "suiker",
-                        "plural": "suiker"
+                        "singular": "tomaat",
+                        "plural": "tomaten"
                     },
-                    "tags": ["50 gram voor de pap", "25 gram voor de korst"]
+                    "tags": ["in stukjes"]
                 },
                 {
-                    "unit": "grams",
+                    "unit": "milliliters",
                     "amount": {
-                        "min": 45,
-                        "max": 45
+                        "min": 125,
+                        "max": 125
                     },
                     "name": {
-                        "singular": "boter",
-                        "plural": "boter"
-                    },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "paneermeel",
-                        "plural": "paneermeel"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "kaneel",
-                        "plural": "kaneel"
+                        "singular": "zure room",
+                        "plural": "zure room"
                     },
                     "tags": []
                 }
             ],
             "preparationTime": {
-                "activeTime": 15,
-                "activeWaitTime": 25,
+                "activeTime": 25,
+                "activeWaitTime": 15,
                 "passiveWaitTime": 0
             },
             "totalPreparationTime": 40,
             "steps": [
                 {
                     "order": 1,
-                    "description": "Verwarm de oven voor op 180℃."
+                    "description": "Verwarm de oven voor op 200℃."
                 },
                 {
                     "order": 2,
-                    "description": "Verwarm de melk en maak hierin het brood fijn."
+                    "description": "Pel en snipper de ui."
                 },
                 {
                     "order": 3,
-                    "description": "Splits het ei. Voeg de eidooier samen met enkele citroendruppels, de rozijnen, 50 gram suiker en 40 gram boter toe aan de pap."
+                    "description": "Fruit de ui ongeveer 1 minuut. Voeg het gehakt toe en bak dit in ongeveer 3 minuten rul. Voeg de spinazie toe en laat dit even meebakken. Voeg de seasoning mix toe volgens de bereidingswijze op de verpakking."
                 },
                 {
                     "order": 4,
-                    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep de eiwit er luchtig doorheen."
+                    "description": "Schep 75 gram kaas door het gehaktmengsel."
                 },
                 {
                     "order": 5,
-                    "description": "De de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een dun klontje boter op. Zet het in het midden van de oven totdat het een mooie bruine korst heeft."
+                    "description": "Was de tomaten en snijd ze in stukjes."
+                },
+                {
+                    "order": 6,
+                    "description": "Verdeel het gehaktmengsel en de tomaten over de tortilla's en rol de tortilla's op."
+                },
+                {
+                    "order": 7,
+                    "description": "Leg de tortilla's in de ovenschaal, verdeel de room erover en bestrooi met 75 gram kaas. Zet de burrito's in de oven totdat ze bruin kleuren."
                 }
             ]
         },
         {
             "id": 4,
-            "title": "Broodpap",
-            "servings": 1,
+            "title": "Kaasflensjes met maïs, sla en ham",
+            "servings": 3,
             "ingredients": [
                 {
-                    "unit": "whole",
+                    "unit": "grams",
                     "amount": {
-                        "min": 8,
-                        "max": 10
+                        "min": 200,
+                        "max": 200
                     },
                     "name": {
-                        "singular": "sneetje brood",
-                        "plural": "sneetjes brood"
+                        "singular": "bloem",
+                        "plural": "bloem"
                     },
-                    "tags": ["eventueel zonder korst"]
+                    "tags": []
                 },
                 {
-                    "unit": "liters",
+                    "unit": "teaspoon",
                     "amount": {
-                        "min": 0.5,
-                        "max": 0.5
+                        "min": 1,
+                        "max": 1
                     },
                     "name": {
-                        "singular": "melk",
-                        "plural": "melk"
+                        "singular": "paprikapoeder",
+                        "plural": "paprikapoeder"
                     },
                     "tags": []
                 },
@@ -480,55 +447,88 @@
                     "tags": []
                 },
                 {
-                    "unit": "intuition",
+                    "unit": "milliliters",
                     "amount": {
-                        "min": 1,
-                        "max": 1
+                        "min": 400,
+                        "max": 400
                     },
                     "name": {
-                        "singular": "citroendruppel",
-                        "plural": "citroendruppels"
+                        "singular": "melk",
+                        "plural": "melk"
                     },
                     "tags": []
                 },
                 {
                     "unit": "grams",
                     "amount": {
-                        "min": 75,
-                        "max": 75
+                        "min": 175,
+                        "max": 175
                     },
                     "name": {
-                        "singular": "rozijn",
-                        "plural": "rozijnen"
+                        "singular": "geraspte kaas",
+                        "plural": "geraspte kaas"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "whole",
+                    "amount": {
+                        "min": 3,
+                        "max": 3
+                    },
+                    "name": {
+                        "singular": "bosui",
+                        "plural": "bosuien"
                     },
                     "tags": []
                 },
                 {
                     "unit": "grams",
                     "amount": {
-                        "min": 75,
-                        "max": 75
+                        "min": 300,
+                        "max": 300
                     },
                     "name": {
-                        "singular": "suiker",
-                        "plural": "suiker"
+                        "singular": "maïskorrel",
+                        "plural": "maïskorrels"
                     },
-                    "tags": ["50 gram voor de pap", "25 gram voor de korst"]
+                    "tags": []
+                },
+                {
+                    "unit": "whole",
+                    "amount": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "name": {
+                        "singular": "krop sla",
+                        "plural": "krop sla"
+                    },
+                    "tags": []
                 },
                 {
                     "unit": "grams",
                     "amount": {
-                        "min": 45,
-                        "max": 45
+                        "min": 250,
+                        "max": 250
                     },
                     "name": {
-                        "singular": "boter",
-                        "plural": "boter"
+                        "singular": "hamblokje",
+                        "plural": "hamblokjes"
                     },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
+                    "tags": []
+                },
+                {
+                    "unit": "tablespoon",
+                    "amount": {
+                        "min": 2,
+                        "max": 2
+                    },
+                    "name": {
+                        "singular": "olie",
+                        "plural": "olie"
+                    },
+                    "tags": []
                 },
                 {
                     "unit": "intuition",
@@ -537,87 +537,72 @@
                         "max": 1
                     },
                     "name": {
-                        "singular": "paneermeel",
-                        "plural": "paneermeel"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "kaneel",
-                        "plural": "kaneel"
+                        "singular": "yoghurtdressing",
+                        "plural": "yoghurtdressing"
                     },
                     "tags": []
                 }
             ],
             "preparationTime": {
-                "activeTime": 15,
-                "activeWaitTime": 25,
+                "activeTime": 25,
+                "activeWaitTime": 0,
                 "passiveWaitTime": 0
             },
-            "totalPreparationTime": 40,
+            "totalPreparationTime": 25,
             "steps": [
                 {
                     "order": 1,
-                    "description": "Verwarm de oven voor op 180℃."
+                    "description": "Roer in een ruime schaal bloem met 1 theelepel zout, 0,5 theelepel peper, 1 theelepel paprikapoeder, 1 ei en 200 milliliter melk tot een dik beslag."
                 },
                 {
                     "order": 2,
-                    "description": "Verwarm de melk en maak hierin het brood fijn."
+                    "description": "Voeg nogmaals 200 milliliter melk en 100 milliliter water beetje voor beetje toe."
                 },
                 {
                     "order": 3,
-                    "description": "Splits het ei. Voeg de eidooier samen met enkele citroendruppels, de rozijnen, 50 gram suiker en 40 gram boter toe aan de pap."
+                    "description": "Roer de kaas door het beslag heen."
                 },
                 {
                     "order": 4,
-                    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep de eiwit er luchtig doorheen."
+                    "description": "Maak de bosuien schoon en snijd ze in ringen. Laat de maïskorrels uitlekken. Maak de sla schoon en snijd deze in repen. Let op: bewaar nog een aantal hele slabladeren."
                 },
                 {
                     "order": 5,
-                    "description": "De de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een dun klontje boter op. Zet het in het midden van de oven totdat het een mooie bruine korst heeft."
+                    "description": "Meng de bosuien, maïs, reepjes sla, ham en 0,5 theelepel peper in een ruime schaal."
+                },
+                {
+                    "order": 6,
+                    "description": "Verhit in koekenpannen wat olie. Schep een sauslepel beslag in elke pan en laat het beslag over de bodem lopen totdat de bodem bedekt is. Bak de flensjes aan beide kanten bruin."
+                },
+                {
+                    "order": 7,
+                    "description": "Leg op elk flensje een slablad, een paar lepels van het mengsel en wat yoghurtdressing. Rol de flesjes op of vouw ze dubbel."
                 }
             ]
         },
         {
             "id": 5,
-            "title": "Broodpap",
-            "servings": 1,
+            "title": "Carbonarasaus",
+            "subtitle": "Serveren met pasta",
+            "servings": 2,
             "ingredients": [
                 {
-                    "unit": "whole",
+                    "unit": "milliliters",
                     "amount": {
-                        "min": 8,
-                        "max": 10
+                        "min": 125,
+                        "max": 125
                     },
                     "name": {
-                        "singular": "sneetje brood",
-                        "plural": "sneetjes brood"
-                    },
-                    "tags": ["eventueel zonder korst"]
-                },
-                {
-                    "unit": "liters",
-                    "amount": {
-                        "min": 0.5,
-                        "max": 0.5
-                    },
-                    "name": {
-                        "singular": "melk",
-                        "plural": "melk"
+                        "singular": "slagroom",
+                        "plural": "slagroom"
                     },
                     "tags": []
                 },
                 {
                     "unit": "whole",
                     "amount": {
-                        "min": 1,
-                        "max": 1
+                        "min": 2,
+                        "max": 2
                     },
                     "name": {
                         "singular": "ei",
@@ -626,55 +611,40 @@
                     "tags": []
                 },
                 {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "citroendruppel",
-                        "plural": "citroendruppels"
-                    },
-                    "tags": []
-                },
-                {
                     "unit": "grams",
                     "amount": {
                         "min": 75,
                         "max": 75
                     },
                     "name": {
-                        "singular": "rozijn",
-                        "plural": "rozijnen"
+                        "singular": "geraspte kaas",
+                        "plural": "geraspte kaas"
                     },
                     "tags": []
                 },
                 {
                     "unit": "grams",
                     "amount": {
-                        "min": 75,
-                        "max": 75
+                        "min": 125,
+                        "max": 125
                     },
                     "name": {
-                        "singular": "suiker",
-                        "plural": "suiker"
+                        "singular": "spekreepje",
+                        "plural": "spekreepjes"
                     },
-                    "tags": ["50 gram voor de pap", "25 gram voor de korst"]
+                    "tags": []
                 },
                 {
-                    "unit": "grams",
+                    "unit": "whole",
                     "amount": {
-                        "min": 45,
-                        "max": 45
+                        "min": 2,
+                        "max": 2
                     },
                     "name": {
-                        "singular": "boter",
-                        "plural": "boter"
+                        "singular": "teen knoflook",
+                        "plural": "tenen knoflook"
                     },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
+                    "tags": ["fijngesneden"]
                 },
                 {
                     "unit": "intuition",
@@ -683,79 +653,47 @@
                         "max": 1
                     },
                     "name": {
-                        "singular": "paneermeel",
-                        "plural": "paneermeel"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "kaneel",
-                        "plural": "kaneel"
+                        "singular": "peterselie",
+                        "plural": "peterselie"
                     },
                     "tags": []
                 }
             ],
             "preparationTime": {
                 "activeTime": 15,
-                "activeWaitTime": 25,
+                "activeWaitTime": 0,
                 "passiveWaitTime": 0
             },
-            "totalPreparationTime": 40,
+            "totalPreparationTime": 15,
             "steps": [
                 {
                     "order": 1,
-                    "description": "Verwarm de oven voor op 180℃."
+                    "description": "Klop de slagroom met de eieren door elkaar met peper, zout en peterselie."
                 },
                 {
                     "order": 2,
-                    "description": "Verwarm de melk en maak hierin het brood fijn."
+                    "description": "Bak de spekreepjes en de fijngesneden knoflook in een koekenpan. Laat de pan daarna iets afkoelen."
                 },
                 {
                     "order": 3,
-                    "description": "Splits het ei. Voeg de eidooier samen met enkele citroendruppels, de rozijnen, 50 gram suiker en 40 gram boter toe aan de pap."
-                },
-                {
-                    "order": 4,
-                    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep de eiwit er luchtig doorheen."
-                },
-                {
-                    "order": 5,
-                    "description": "De de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een dun klontje boter op. Zet het in het midden van de oven totdat het een mooie bruine korst heeft."
+                    "description": "Voeg op laag vuur het slagroommengsel en de geraspte kaas toe. Roer tot het ei licht stolt."
                 }
             ]
         },
         {
             "id": 6,
-            "title": "Broodpap",
-            "servings": 1,
+            "title": "Romige Spätzle met spinazie",
+            "servings": 2,
             "ingredients": [
                 {
                     "unit": "whole",
                     "amount": {
-                        "min": 8,
-                        "max": 10
+                        "min": 1,
+                        "max": 1
                     },
                     "name": {
-                        "singular": "sneetje brood",
-                        "plural": "sneetjes brood"
-                    },
-                    "tags": ["eventueel zonder korst"]
-                },
-                {
-                    "unit": "liters",
-                    "amount": {
-                        "min": 0.5,
-                        "max": 0.5
-                    },
-                    "name": {
-                        "singular": "melk",
-                        "plural": "melk"
+                        "singular": "teen knoflook",
+                        "plural": "tenen knoflook"
                     },
                     "tags": []
                 },
@@ -766,8 +704,44 @@
                         "max": 1
                     },
                     "name": {
-                        "singular": "ei",
-                        "plural": "eieren"
+                        "singular": "ui",
+                        "plural": "uien"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 150,
+                        "max": 150
+                    },
+                    "name": {
+                        "singular": "spekreepje",
+                        "plural": "spekreepjes"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 450,
+                        "max": 450
+                    },
+                    "name": {
+                        "singular": "spinazie",
+                        "plural": "spinazie"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "milliliters",
+                    "amount": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "name": {
+                        "singular": "crème fraîche",
+                        "plural": "crème fraîche"
                     },
                     "tags": []
                 },
@@ -778,130 +752,96 @@
                         "max": 1
                     },
                     "name": {
-                        "singular": "citroendruppel",
-                        "plural": "citroendruppels"
+                        "singular": "Italiaanse kruiden",
+                        "plural": "Italiaanse kruiden"
                     },
                     "tags": []
                 },
                 {
                     "unit": "grams",
                     "amount": {
-                        "min": 75,
-                        "max": 75
+                        "min": 250,
+                        "max": 250
                     },
                     "name": {
-                        "singular": "rozijn",
-                        "plural": "rozijnen"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 75,
-                        "max": 75
-                    },
-                    "name": {
-                        "singular": "suiker",
-                        "plural": "suiker"
-                    },
-                    "tags": ["50 gram voor de pap", "25 gram voor de korst"]
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 45,
-                        "max": 45
-                    },
-                    "name": {
-                        "singular": "boter",
-                        "plural": "boter"
-                    },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "paneermeel",
-                        "plural": "paneermeel"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "kaneel",
-                        "plural": "kaneel"
+                        "singular": "Spätzle",
+                        "plural": "Spätzle"
                     },
                     "tags": []
                 }
             ],
             "preparationTime": {
-                "activeTime": 15,
-                "activeWaitTime": 25,
+                "activeTime": 20,
+                "activeWaitTime": 0,
                 "passiveWaitTime": 0
             },
-            "totalPreparationTime": 40,
+            "totalPreparationTime": 20,
             "steps": [
                 {
                     "order": 1,
-                    "description": "Verwarm de oven voor op 180℃."
+                    "description": "Kook de Spätzle volgens de aanwijzingen op de verpakking."
                 },
                 {
                     "order": 2,
-                    "description": "Verwarm de melk en maak hierin het brood fijn."
+                    "description": "Fruit de knoflook en ui. Voeg de spekreepjes toe en bak ze gaar. Voeg de spinazie toe."
                 },
                 {
                     "order": 3,
-                    "description": "Splits het ei. Voeg de eidooier samen met enkele citroendruppels, de rozijnen, 50 gram suiker en 40 gram boter toe aan de pap."
-                },
-                {
-                    "order": 4,
-                    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep de eiwit er luchtig doorheen."
-                },
-                {
-                    "order": 5,
-                    "description": "De de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een dun klontje boter op. Zet het in het midden van de oven totdat het een mooie bruine korst heeft."
+                    "description": "Voeg op het laatst de crème fraîche toe en breng het geheel op smaak met zout, peper en Italiaanse kruiden."
                 }
             ]
         },
         {
             "id": 7,
-            "title": "Broodpap",
-            "servings": 1,
+            "title": "Perzikengratin met varkensvlees ",
+            "subtitle": "Serveren met rijst",
+            "servings": 4,
             "ingredients": [
                 {
-                    "unit": "whole",
+                    "unit": "grams",
                     "amount": {
-                        "min": 8,
-                        "max": 10
+                        "min": 750,
+                        "max": 750
                     },
                     "name": {
-                        "singular": "sneetje brood",
-                        "plural": "sneetjes brood"
+                        "singular": "varkensfilet",
+                        "plural": "varkensfilet"
                     },
-                    "tags": ["eventueel zonder korst"]
+                    "tags": []
                 },
                 {
-                    "unit": "liters",
+                    "unit": "grams",
                     "amount": {
-                        "min": 0.5,
-                        "max": 0.5
+                        "min": 800,
+                        "max": 1000
                     },
                     "name": {
-                        "singular": "melk",
-                        "plural": "melk"
+                        "singular": "perzik",
+                        "plural": "perziken"
+                    },
+                    "tags": ["uit blik", "op sap"]
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 125,
+                        "max": 125
+                    },
+                    "name": {
+                        "singular": "geraspte kaas",
+                        "plural": "geraspte kaas"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "milliliters",
+                    "amount": {
+                        "min": 200,
+                        "max": 200
+                    },
+                    "name": {
+                        "singular": "crème fraîche",
+                        "plural": "crème fraîche"
                     },
                     "tags": []
                 },
@@ -918,144 +858,153 @@
                     "tags": []
                 },
                 {
-                    "unit": "intuition",
+                    "unit": "tablespoon",
                     "amount": {
                         "min": 1,
                         "max": 1
                     },
                     "name": {
-                        "singular": "citroendruppel",
-                        "plural": "citroendruppels"
+                        "singular": "sausbindmiddel",
+                        "plural": "sausbindmiddel"
                     },
                     "tags": []
                 },
                 {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 75,
-                        "max": 75
-                    },
-                    "name": {
-                        "singular": "rozijn",
-                        "plural": "rozijnen"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 75,
-                        "max": 75
-                    },
-                    "name": {
-                        "singular": "suiker",
-                        "plural": "suiker"
-                    },
-                    "tags": ["50 gram voor de pap", "25 gram voor de korst"]
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 45,
-                        "max": 45
-                    },
-                    "name": {
-                        "singular": "boter",
-                        "plural": "boter"
-                    },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
-                },
-                {
-                    "unit": "intuition",
+                    "unit": "tablespoon",
                     "amount": {
                         "min": 1,
                         "max": 1
                     },
                     "name": {
-                        "singular": "paneermeel",
-                        "plural": "paneermeel"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "kaneel",
-                        "plural": "kaneel"
+                        "singular": "oregano",
+                        "plural": "oregano"
                     },
                     "tags": []
                 }
             ],
             "preparationTime": {
-                "activeTime": 15,
-                "activeWaitTime": 25,
+                "activeTime": 40,
+                "activeWaitTime": 15,
                 "passiveWaitTime": 0
             },
-            "totalPreparationTime": 40,
+            "totalPreparationTime": 55,
             "steps": [
                 {
                     "order": 1,
-                    "description": "Verwarm de oven voor op 180℃."
+                    "description": "Verwarm de oven voor op 100℃."
                 },
                 {
                     "order": 2,
-                    "description": "Verwarm de melk en maak hierin het brood fijn."
+                    "description": "Snijd de varkensfilet in 3 centimeter dikke schijven en druk de schijven plat. Verwarm wat boter in een pan. Braad de varkensvleesstukken aan elke kant één minuut. Breng ze op smaak met peper en zout. Leg ze in een ovenschaal."
                 },
                 {
                     "order": 3,
-                    "description": "Splits het ei. Voeg de eidooier samen met enkele citroendruppels, de rozijnen, 50 gram suiker en 40 gram boter toe aan de pap."
+                    "description": "Laat de perziken uitletten, maar vang het sap op. Leg de perziken op de varkensvleesstukken in de ovenschaal."
                 },
                 {
                     "order": 4,
-                    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep de eiwit er luchtig doorheen."
+                    "description": "Klop 3 eetlepels crème fraîche met het ei. Breng de rest van de crème fraîche aan de kook met 1/8 van het opgevangen perzikensap. Roer hier sausbindmiddel doorheen. Breng het op smaak met zout, peper en oregano. Roer er tot slot het eimengsel en 2/3 van de kaas door. Giet de saus over de perziken."
                 },
                 {
                     "order": 5,
-                    "description": "De de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een dun klontje boter op. Zet het in het midden van de oven totdat het een mooie bruine korst heeft."
+                    "description": "Strooi de rest van de kaas over de ovenschotel. Zet het geheel in het midden van de oven voor 15 tot 20 minuten."
                 }
             ]
         },
         {
             "id": 8,
-            "title": "Broodpap",
-            "servings": 1,
+            "title": "American cookies",
+            "servings": 25,
             "ingredients": [
                 {
-                    "unit": "whole",
+                    "unit": "grams",
                     "amount": {
-                        "min": 8,
-                        "max": 10
+                        "min": 550,
+                        "max": 550
                     },
                     "name": {
-                        "singular": "sneetje brood",
-                        "plural": "sneetjes brood"
-                    },
-                    "tags": ["eventueel zonder korst"]
-                },
-                {
-                    "unit": "liters",
-                    "amount": {
-                        "min": 0.5,
-                        "max": 0.5
-                    },
-                    "name": {
-                        "singular": "melk",
-                        "plural": "melk"
+                        "singular": "bloem",
+                        "plural": "bloem"
                     },
                     "tags": []
                 },
                 {
-                    "unit": "whole",
+                    "unit": "tablespoon",
                     "amount": {
                         "min": 1,
                         "max": 1
+                    },
+                    "name": {
+                        "singular": "zout",
+                        "plural": "zout"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "tablespoon",
+                    "amount": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "name": {
+                        "singular": "bakpoeder",
+                        "plural": "bakpoeder"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "tablespoon",
+                    "amount": {
+                        "min": 1,
+                        "max": 1
+                    },
+                    "name": {
+                        "singular": "vanille-extract",
+                        "plural": "vanille-extract"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 180,
+                        "max": 180
+                    },
+                    "name": {
+                        "singular": "kristalsuiker",
+                        "plural": "kristalsuiker"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 180,
+                        "max": 180
+                    },
+                    "name": {
+                        "singular": "donkere basterdsuiker",
+                        "plural": "donkere basterdsuiker"
+                    },
+                    "tags": []
+                },
+                {
+                    "unit": "grams",
+                    "amount": {
+                        "min": 350,
+                        "max": 350
+                    },
+                    "name": {
+                        "singular": "chocolade",
+                        "plural": "chocolade"
+                    },
+                    "tags": ["puur"]
+                },
+                {
+                    "unit": "whole",
+                    "amount": {
+                        "min": 2,
+                        "max": 2
                     },
                     "name": {
                         "singular": "ei",
@@ -1064,107 +1013,44 @@
                     "tags": []
                 },
                 {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "citroendruppel",
-                        "plural": "citroendruppels"
-                    },
-                    "tags": []
-                },
-                {
                     "unit": "grams",
                     "amount": {
-                        "min": 75,
-                        "max": 75
-                    },
-                    "name": {
-                        "singular": "rozijn",
-                        "plural": "rozijnen"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 75,
-                        "max": 75
-                    },
-                    "name": {
-                        "singular": "suiker",
-                        "plural": "suiker"
-                    },
-                    "tags": ["50 gram voor de pap", "25 gram voor de korst"]
-                },
-                {
-                    "unit": "grams",
-                    "amount": {
-                        "min": 45,
-                        "max": 45
+                        "min": 250,
+                        "max": 250
                     },
                     "name": {
                         "singular": "boter",
                         "plural": "boter"
                     },
-                    "tags": [
-                        "40 gram voor de pap",
-                        "5 gram voor het invetten van de ovenschaal"
-                    ]
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "paneermeel",
-                        "plural": "paneermeel"
-                    },
-                    "tags": []
-                },
-                {
-                    "unit": "intuition",
-                    "amount": {
-                        "min": 1,
-                        "max": 1
-                    },
-                    "name": {
-                        "singular": "kaneel",
-                        "plural": "kaneel"
-                    },
-                    "tags": []
+                    "tags": ["op kamertemperatuur"]
                 }
             ],
             "preparationTime": {
                 "activeTime": 15,
-                "activeWaitTime": 25,
-                "passiveWaitTime": 0
+                "activeWaitTime": 10,
+                "passiveWaitTime": 15
             },
-            "totalPreparationTime": 40,
+            "totalPreparationTime": 35,
             "steps": [
                 {
                     "order": 1,
-                    "description": "Verwarm de oven voor op 180℃."
+                    "description": "Verwarm de oven voor op 190℃."
                 },
                 {
                     "order": 2,
-                    "description": "Verwarm de melk en maak hierin het brood fijn."
+                    "description": "Hak de chocoladerepen in kleine stukjes. Meng de bloem, bakpoeder en het zout in een kom."
                 },
                 {
                     "order": 3,
-                    "description": "Splits het ei. Voeg de eidooier samen met enkele citroendruppels, de rozijnen, 50 gram suiker en 40 gram boter toe aan de pap."
+                    "description": "Doe de boter, basterdsuiker, kristalsuiker en het vanille-extract in een kom en mix tot het mengsel romig is. Voeg daarna één voor één de eieren toe en mix na elk ei het mengsel goed door. Voeg als laatste de chocoladestukjes toe."
                 },
                 {
                     "order": 4,
-                    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep de eiwit er luchtig doorheen."
+                    "description": "Vorm met twee lepels platte koekjes op het bakpapier (op een rooster of bakplaat). Laat wel ruimte tussen de koekjes, want deze lopen nog een beetje uit."
                 },
                 {
                     "order": 5,
-                    "description": "De de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een dun klontje boter op. Zet het in het midden van de oven totdat het een mooie bruine korst heeft."
+                    "description": "Bak de koekjes 8 tot 10 minuten. Als ze klaar zijn, voelen ze heel zacht. Als ze eenmaal afgekoeld zijn, worden ze harder. Overschrijd dus de baktijd niet, tenzij je heel grote koekjes hebt."
                 }
             ]
         }

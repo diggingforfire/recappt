@@ -12,7 +12,7 @@ module.exports = {
             appMountId: "app",
             lang: "en",
             mobile: true,
-            favicon: "./src/favicon.png"
+            favicon: "./src/assets/favicon.png"
         })
     ],
     output: {
@@ -39,6 +39,15 @@ module.exports = {
                         loader: "file-loader"
                     }
                 ]
+            },
+            {
+                test: /\.(jpg|png)$/,
+                use: {
+                    loader: "url-loader",
+                    options: {
+                        limit: 10 * 1024
+                    }
+                }
             }
         ]
     }

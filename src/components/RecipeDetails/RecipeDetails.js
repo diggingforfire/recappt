@@ -1,6 +1,8 @@
 import React from "react";
 import "./RecipeDetails.scss";
 import { connect } from "react-redux";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserFriends } from "@fortawesome/free-solid-svg-icons";
 
 const RecipeDetails = props => {
     const recipe =
@@ -10,10 +12,12 @@ const RecipeDetails = props => {
     return (
         <div className="recipe-details">
             <h1>{recipe.title}</h1>
+            <h2>{recipe.subtitle}</h2>
             <div className="container">
                 <div className="recipe-info">
                     <div className="servings">
-                        <strong>Persoontjes:</strong> {recipe.servings}
+                        <FontAwesomeIcon icon={faUserFriends} />{" "}
+                        {recipe.servings}
                     </div>
                     <div className="preparation">
                         <div className="activeTime">
@@ -36,7 +40,7 @@ const RecipeDetails = props => {
                                 <span>{ingredient.amount.min}</span>{" "}
                                 <span>{ingredient.unit}</span>{" "}
                                 <span>{ingredient.name.singular}</span>
-                                {", "}
+                                <span>{", "}</span>
                                 <span>{ingredient.tags.join(", ")}</span>
                             </div>
                         ))}

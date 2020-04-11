@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./RecipeCard.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClock } from "@fortawesome/free-solid-svg-icons";
 
 const RecipeCard = props => (
     <Link
@@ -18,9 +20,13 @@ const RecipeCard = props => (
                 <div className="card-top">
                     <div className="left">
                         <h2>{props.recipe.title}</h2>
+                        <h3>{props.recipe.subtitle || ""}</h3>
                     </div>
                     <div className="right">
-                        <span>{props.recipe.totalPreparationTime}</span>
+                        <span className="preparation-time">
+                            <FontAwesomeIcon icon={faClock} />{" "}
+                            {props.recipe.totalPreparationTime}
+                        </span>
                     </div>
                 </div>
                 <div className="card-bottom">
